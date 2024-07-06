@@ -36,7 +36,4 @@ tags: ['gcp-cloud-build-sample-build']
 
 # Logs configuration
 options:
-  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET 
-
-# Service account
-serviceAccount: '369183091953-compute@developer.gserviceaccount.com'
+  logging: CLOUD_LOGGING_ONLY
