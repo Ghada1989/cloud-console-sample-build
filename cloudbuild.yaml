@@ -36,9 +36,7 @@ tags: ['gcp-cloud-build-sample-build']
 
 # Logs configuration
 options:
-  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET  
-# OR
-logsBucket: 'gs://your-logs-bucket-name' # Replace with your actual bucket name
+  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET 
 
 # Service account
 serviceAccount: '369183091953@cloudbuild.gserviceaccount.com'
