@@ -39,4 +39,4 @@ options:
   default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET 
 
 # Service account
-serviceAccount: '369183091953@cloudbuild.gserviceaccount.com'
+serviceAccount: '369183091953-compute@developer.gserviceaccount.com'
